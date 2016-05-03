@@ -2,31 +2,38 @@
 	padding: 0;
 }
 
+/*=== Navbar Styles =====*/
 .navbar-default {
 	background-color: transparent;
 	border: none;
 	position: fixed;
 }
 
+/*===== Carousel Styles =====*/
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
 	height: 100vh;
 	width: 100vw;
 }
 
-.carousel-inner .carousel-caption img {
-	max-height: 400px;
+
+.restaurant-logo img {
 	max-width: 400px;
-	margin-bottom: 100px;
 }
 
+.carousel-caption {
+	padding-bottom: 250px;
+}
+
+
+/*===== Story Styles =====*/
 #story h1 {
 	color: #F15A24;
 	font-family: 'Lobster', cursive;
 	font-size: 80px;
 	text-shadow: 1px 1px 5px #000;
 	margin-bottom: 0;
-	padding-top: 35%;
-
+	margin-left: 75px;
+	padding-top: 5%;
 }
 
 #story h3 {
@@ -34,10 +41,89 @@
 	font-weight: 700;
 	font-size: 26px;
 	margin-top: 0;
+	margin-left: 65px;
 }
 
 .col-sm-6 p {
-	padding-top: 200px;
 	text-align: justify;
 	display: block;
+	margin: 50px;
 }
+
+#story #year {
+	font-family: 'Playfair Display', serif;
+	color: #ddd;
+	text-shadow: none;
+	z-index: -1;
+	position: absolute;
+	font-size: 200px;
+	font-weight: 700;
+	padding-left: 13px;
+}
+
+/*===== Review Styles =====*/
+#review {
+	background-image: url('../img/food_review.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+#review h1 {
+	color: #F15A24;
+	font-family: 'Lobster', cursive;
+	font-size: 70px;
+	margin-bottom: 0;
+	text-align: center;	
+}
+
+#review p {
+	font-family: 'Raleway', sans serif;
+	font-size: 28px;
+	text-align: center;
+	color:#fff;
+}
+
+#review .review-bg{
+	background-color: rgba(0, 0, 0, .4);
+	padding: 30px;
+	margin-top: 125px;
+}
+
+.thumbnail .img-responsive img {
+	width: 255px;
+	height: 172.78px;
+}
+
+/*===== Menu Styles =====*/
+#menu {
+	background-image: url('../img/black_linen.png');
+	min-height: 500px;
+}
+
+#menu .tab-pane {
+	background-color: #fff;
+	padding: 15px;
+}
+
+/*===== Contact Styles ======*/
+#contact {
+	background-color: #F15A24;
+}
+
+#contact h1 {
+	color: #fff;
+}
+
+#contact p {
+	color: #fff;
+}
+
+#contact .col-sm-6 address {
+	color: #fff;
+}
+
+
+
+
+
